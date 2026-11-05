@@ -1,0 +1,1 @@
+Ce depot contient des projets  d'analyse et d'exploration developer en Python avec VS code
