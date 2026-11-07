@@ -7,3 +7,6 @@ data={
     "Note_Examen":  ,
 }
 df=pd.DataFrame(data)
+
+print("--Apercu de nos donnees")
+print(df)
