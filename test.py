@@ -8,10 +8,10 @@ data = {
 }
 df = pd.DataFrame(data)
 
-print("--Apercu de nos donnees")
+print("--Apercu de nos donnees--")
 print(df)
 
-sns.set_theme(style="darkgrid")
+sns.set_theme(style="whitegrid")
 sns.regplot(x="Heures_Etudes", y="Note_Examen", data=df, color="blue")
 
 plt.title("Relation entre les heures d'études et la note d'examen")
