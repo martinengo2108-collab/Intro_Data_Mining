@@ -10,3 +10,6 @@ df = pd.DataFrame(data)
 
 print("--Apercu de nos donnees")
 print(df)
+
+sns.set_theme(style="darkgrid")
+sns.regplot(x="Heures_Etudes", y="Note_Examen", data=df, color="blue")
