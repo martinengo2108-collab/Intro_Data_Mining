@@ -13,3 +13,7 @@ print(df)
 
 sns.set_theme(style="darkgrid")
 sns.regplot(x="Heures_Etudes", y="Note_Examen", data=df, color="blue")
+
+plt.title("Relation entre les heures d'études et la note d'examen")
+plt.xlabel("Heures d'études")
+plt.ylabel("Note d'examen")
