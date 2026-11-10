@@ -25,3 +25,14 @@ df_iris=pd.DataFrame(
 
 df_iris["target"]=iris.target
 print(df_iris.head())
+
+print(df_iris.head())
+print("IRIS FLOWER INFORMATIONS")
+print(df_iris.info())
+
+print("SHAPE :", df_iris.shape)
+print("STATISTICS :")
+
+print(df_iris.describe())
+print("MISSING VALUES :")
+print(df_iris.isnull().sum())
