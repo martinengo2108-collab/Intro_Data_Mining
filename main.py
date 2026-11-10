@@ -10,3 +10,6 @@ breast_cancer = load_breast_cancer()
 
 print("BREAST CANCER DATASET")
 print(breast_cancer)
+
+print("FEATURE NAMES :")
+print(breast_cancer.feature_names)
