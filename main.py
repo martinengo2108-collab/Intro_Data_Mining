@@ -36,3 +36,14 @@ print("STATISTICS :")
 print(df_breast.describe())
 print("MISSING VALUES :")
 print(df_breast.isnull().sum())
+
+print("\n BREAST CANCER DESCRIPTIVE ANALYSIS")
+
+print("\n Average Values :")
+print(df_breast.mean(numeric_only=True))
+
+print("\n Median Values :")
+print(df_breast.median(numeric_only=True))
+
+print("\n Mode :")
+print(df_breast.mode(numeric_only=True))
