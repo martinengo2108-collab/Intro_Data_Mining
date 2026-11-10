@@ -26,3 +26,5 @@ df_breast=pd.DataFrame(
                     columns=breast_cancer.feature_names
                     )
 df_breast["target"]=breast_cancer.target
+
+print(df_breast.head())
