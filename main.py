@@ -46,4 +46,4 @@ print("\n Median Values :")
 print(df_breast.median(numeric_only=True))
 
 print("\n Mode :")
-print(df_breast.mode(numeric_only=True))
+print(df_breast.mode().iloc[0])
