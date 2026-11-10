@@ -47,3 +47,9 @@ print(df_breast.median(numeric_only=True))
 
 print("\n Mode :")
 print(df_breast.mode().iloc[0])
+
+print("\nVariance :")
+print(df_breast.var(numeric_only=True))
+
+print("\nStandard deviation :")
+print(df_breast.std(numeric_only=True))
