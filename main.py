@@ -20,3 +20,9 @@ print(breast_cancer.target_names)
 
 print("SHAPES :")
 print(breast_cancer.data.shape)
+
+df_breast=pd.DataFrame(
+            breast_cancer.data,
+                    columns=breast_cancer.feature_names
+                    )
+df_breast["target"]=breast_cancer.target
