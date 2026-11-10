@@ -27,3 +27,12 @@ df_breast=pd.DataFrame(
 df_breast["target"]=breast_cancer.target
 
 print(df_breast.head())
+print("BREAST CANCER INFORMATIONS")
+print(df_breast.info())
+
+print("SHAPE :", df_breast.shape)
+print("STATISTICS :")
+
+print(df_breast.describe())
+print("MISSING VALUES :")
+print(df_breast.isnull().sum())
