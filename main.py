@@ -17,3 +17,6 @@ print(breast_cancer.feature_names)
 
 print("TARGET NAMES :")
 print(breast_cancer.target_names)
+
+print("SHAPES :")
+print(breast_cancer.data.shape)
