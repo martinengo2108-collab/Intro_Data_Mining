@@ -13,3 +13,7 @@ print(breast_cancer)
 
 print("FEATURE NAMES :")
 print(breast_cancer.feature_names)
+
+
+print("TARGET NAMES :")
+print(breast_cancer.target_names)
