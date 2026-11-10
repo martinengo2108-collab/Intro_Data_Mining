@@ -14,3 +14,6 @@ print(iris.feature_names)
 
 print("Target Names :")
 print(iris.target_names)
+
+print("Shapes :")
+print(iris.data.shape)
