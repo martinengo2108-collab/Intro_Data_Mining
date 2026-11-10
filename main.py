@@ -53,3 +53,10 @@ print(df_breast.var(numeric_only=True))
 
 print("\nStandard deviation :")
 print(df_breast.std(numeric_only=True))
+
+print("\nMinimum :")
+print(df_breast.min(numeric_only=True))
+
+
+print("\n Maximum :")
+print(df_breast.max(numeric_only=True))
